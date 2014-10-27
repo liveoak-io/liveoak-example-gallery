@@ -1,4 +1,5 @@
 {
+  "html-app" : "/app/index.html",
   "resources" : {
     "app" : {
       "type" : "filesystem",
