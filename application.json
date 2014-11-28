@@ -19,26 +19,14 @@
     "storage" : {
       "type" : "mongo",
       "config" : {
-        "db" : "gallery-demo",
-        "servers" : [
-          {
-            "host" : "localhost",
-            "port" : 27017
-          }
-        ]
+        "db" : "gallery-demo"
       }
     },
 
     "drive" : {
       "type" : "gridfs",
       "config" : {
-        "db" : "gallery-demo-images",
-        "servers" : [
-          {
-            "host" : "localhost",
-            "port" : 27017
-          }
-        ]
+        "db" : "gallery-demo-images"
       }
     }
   }
