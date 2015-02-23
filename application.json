@@ -1,6 +1,7 @@
 {
   "html-app" : "/app/index.html",
   "example" : "gallery",
+  "configuration-files" : ["app/index.html","app/js/app.js", "app/css/plus.css"],
   "resources" : {
     "app" : {
       "type" : "filesystem",
@@ -19,14 +20,14 @@
     "storage" : {
       "type" : "mongo",
       "config" : {
-        "db" : "gallery-demo"
+        "db" : "${application.id}"
       }
     },
 
     "drive" : {
       "type" : "gridfs",
       "config" : {
-        "db" : "gallery-demo-images"
+        "db" : "${application.id}-images"
       }
     }
   }
