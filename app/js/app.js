@@ -1,7 +1,7 @@
 // for remote access set host to server name:port where the app is deployed
 var HOST = '';
 
-var APP_ROOT = '/gallery/';
+var APP_ROOT = '/${application.id}/';
 var DRIVE_ROOT = HOST + APP_ROOT + 'drive/user';
 
 $(".galleria").css('width', window.innerWidth)
